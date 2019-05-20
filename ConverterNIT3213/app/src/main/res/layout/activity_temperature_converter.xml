@@ -15,10 +15,10 @@
         android:layout_height="wrap_content"
         android:text="Temperature Converter"
         android:layout_gravity="center"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginBottom="@dimen/_100sdp"
         android:textColor="@color/colorText"
-        android:textSize="30dp"
+        android:textSize="@dimen/_30ssp"
         />
 
     <include android:id="@+id/temperature_celcius"
@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="@dimen/_50sdp"
         android:textColor="@color/colorWhite"
-        android:textSize="30sp"
+        android:textSize="@dimen/_30ssp"
         android:textStyle="bold"/>
 </LinearLayout>
